@@ -18,6 +18,12 @@ sections:
 - type: document
   path: data/settings.json
   label: Menu
+- type: heading
+  label: Documentation
+- type: document
+  path: README.md
+  label: README
+  read_only: true
 upload_dir: static
 public_path: ''
 front_matter_path: ''
@@ -29,4 +35,4 @@ build:
   preview_docker_image: node:12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: gridsome develop
+  instant_preview_command: yarn develop
