@@ -1,7 +1,7 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
-      <h1>{{ this.description }}</h1>
+      <h1>{{ $static.metadata.siteName }} - {{ this.description }}</h1>
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
         <Shortcut link="/about" text="About" icon="info-icon" />
@@ -32,7 +32,7 @@ export default {
   },
   data() {
     return {
-      description: 'Tutorial: Machine learning for data streams with scikit-multiflow'
+      description: 'Machine learning for data streams with scikit-multiflow'
     }
   },
   metaInfo() {
