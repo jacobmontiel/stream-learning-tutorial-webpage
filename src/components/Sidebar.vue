@@ -53,9 +53,6 @@ import GitLink from '~/components/GitLink.vue'
 import throttle from 'lodash/throttle'
 
 export default {
-  components: {
-    GitLink
-  },
   watch: {
     '$route' () {
       this.$store.commit('closeSidebar')
@@ -106,7 +103,7 @@ export default {
 .sidebar {
   transition: background .15s ease-in-out, transform .15s ease-in-out, border-color .15s linear;
   padding: 100px 30px 30px;
-  width: 300px;
+  width: 310px;
   position: fixed;
   top: 0;
   bottom: 0;

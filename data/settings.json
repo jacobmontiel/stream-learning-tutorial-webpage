@@ -4,8 +4,12 @@
       "section": "Introduction",
       "topics": [
         {
-          "title": "Getting started",
-          "slug": "getting-started"
+          "title": "About this tutorial",
+          "slug": "about"
+        },
+        {
+          "title": "Outline",
+          "slug": "outline"
         }
       ]
     },
@@ -13,12 +17,8 @@
       "section": "Setup",
       "topics": [
         {
-          "title": "Theme configuration",
-          "slug": "theme-configuration"
-        },
-        {
-          "title": "Forestry CMS",
-          "slug": "forestry-cms"
+          "title": "Getting started",
+          "slug": "getting-started"
         }
       ]
     }

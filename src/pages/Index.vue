@@ -1,14 +1,14 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
-      <h1>{{ $static.metadata.siteName }} - {{ this.description }}</h1>
+      <h1>{{ this.description }}</h1>
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
-        <Shortcut link="/getting-started" text="Introduction" icon="play-icon" />
-        <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon" />
-        <Shortcut link="/theme-configuration#changing-colors" text="Change colors" icon="eye-icon" />
+        <Shortcut link="/about" text="About" icon="info-icon" />
+        <Shortcut link="/outline" text="Outline" icon="eye-icon" />
+        <Shortcut link="/getting-started" text="Setup" icon="settings-icon" />
       </nav>
-      <GitLink class="git" size="large" />
+      <!-- <GitLink class="git" size="large" /> -->
     </div>
   </Layout>
 </template>
@@ -26,20 +26,20 @@ import GitLink from '~/components/GitLink.vue'
 import Shortcut from '~/components/Shortcut.vue'
 
 export default {
-  components: {
+    components: {
     GitLink,
     Shortcut
   },
   data() {
     return {
-      description: 'The ultimate static generated documentation theme for the JAM-stack'
+      description: 'Tutorial: Machine learning for data streams with scikit-multiflow'
     }
   },
   metaInfo() {
     return {
       title: this.description,
       meta: [
-        { key: 'description', name: 'description', content: 'A theme for static site documentation based on Gridsome, ready to deploy to Netlify in one click.' }
+        { key: 'description', name: 'description', content: 'A tutorial on machine learning for data streams with scikit-multiflow.' }
       ]
     }
   }
