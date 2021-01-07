@@ -12,6 +12,24 @@ The tools and algorithms in river are specifically designed for the data stream 
 
 The target audience of this tutorial includes researchers and practitioners, specially if interested on: learning from big data streams, evolving data and/or IoT applications. No previous experience on stream learning is required, but familiarity with traditional batch learning concepts and frameworks (`scikit-learn`) will be a plus.
 
-### Announcement
+## Announcement
 In November 2020, `scikit-muiltiflow` and `creme`, the two most popular open-source libraries for stream learning merged into a new library named `river`.
 Accordingly, the notebooks are based on `river`, the title of the tutorial was not changed as the conference's program was already announced.
+
+## Organizers
+
+**Jacob Montiel**
+Jacob is a research fellow at the University of Waikato in New Zealand and the core developer and maintainer of river. His research interests are in the field of machine learning for evolving data streams. Prior to focusing on research, Jacob led development work for onboard software for aircraft and engine’s prognostics at GE Aviation; working in the development of GE’s Brilliant Machines, part of the IoT and GE’s approach to Industrial Big Data.
+Website: https://jacobmontiel.github.io/ 
+
+**Heitor Murilo Gomes**
+Heitor is a senior research fellow at the University of Waikato in New Zealand. His main research area is Machine Learning, specially Evolving Data Streams, Concept Drift, Ensemble methods and Big Data Streams. He is an active contributor to the open data stream mining project MOA and a co-leader of the StreamDM project, a real-time analytics open-source software library built on top of Spark Streaming.
+Website: https://www.heitorgomes.com
+
+**Jesse Read**
+Jesse is a Professor at the DaSciM team in LIX at Ecole Polytechnique in France. His research interests are in the areas of Artificial Intelligence, Machine Learning, and Data Science and Mining. Jesse is the maintainer of the open-source soft- ware MEKA, a multi-label/multi-target extension to Weka.
+Website: https://jmread.github.io/
+
+**Albert Bifet**
+Albert is a Professor at University of Waikato and Télécom Paris. His research focuses on Data Stream mining, Big Data Machine Learning and Artificial Intelligence. Problems he investigate are motivated by large scale data, the Internet of Things (IoT), and Big Data Science. He co-leads the open source projects MOA (Massive On-line Analysis), Apache SAMOA (Scalable Advanced Massive Online Analysis) and StreamDM.
+Website: http://albertbifet.com
