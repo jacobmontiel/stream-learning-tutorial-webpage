@@ -32,14 +32,14 @@ export default {
   },
   data() {
     return {
-      description: 'Machine learning for data streams with scikit-multiflow'
+      description: 'Machine learning for data streams with <SPAN STYLE="text-decoration:line-through">scikit-multiflow</SPAN> river'
     }
   },
   metaInfo() {
     return {
       title: this.description,
       meta: [
-        { key: 'description', name: 'description', content: 'A tutorial on machine learning for data streams with scikit-multiflow.' }
+        { key: 'description', name: 'description', content: 'A tutorial on machine learning for data streams in Python.' }
       ]
     }
   }

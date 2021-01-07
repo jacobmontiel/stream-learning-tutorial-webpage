@@ -7,12 +7,14 @@ slug: outline
 
 * Machine Learning for Data Streams
   * Stream vs. batch learning
-  * Non-stationary (evolving) streams – Concept drift and other challenges 
-  * Existing tools
+  * Challenges of stream learning
+  * Non-stationary (evolving) streams – Concept drift
+  * Multi-label learning
 
-* scikit-multiflow
-  *  Architecture overview
+* `River`
+  * Overview
   * Running experiments
   * Extending/implementing estimators
-  * Demo: Classification, Regression, Multi-output,
   * Concept Drift
+
+Materials including videos and slides will be available after the tutorial.
