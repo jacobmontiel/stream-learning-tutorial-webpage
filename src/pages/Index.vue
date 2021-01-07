@@ -32,7 +32,7 @@ export default {
   },
   data() {
     return {
-      description: 'Machine learning for data streams with <SPAN STYLE="text-decoration:line-through">scikit-multiflow</SPAN> river'
+      description: 'Machine learning for data streams with river'
     }
   },
   metaInfo() {

@@ -1,6 +1,6 @@
 ---
 title: Outline
-date: 2020-03-16
+date: 2021-01-08
 slug: outline
 
 ---
@@ -11,10 +11,12 @@ slug: outline
   * Non-stationary (evolving) streams – Concept drift
   * Multi-label learning
 
+Materials: will be available after the tutorial.
+
 * `River`
   * Overview
   * Running experiments
   * Extending/implementing estimators
   * Concept Drift
 
-Materials including videos and slides will be available after the tutorial.
+Materials: [GitHub repository](https://github.com/jacobmontiel/river-tutorial-ijcai2020).
