@@ -22,7 +22,8 @@ Materials: will be available after the tutorial.
 
 Materials: [GitHub repository](https://github.com/jacobmontiel/river-tutorial-ijcai2020).
 
-## Additional resources:
+## Additional resources
+
 - River webpage: [https://riverml.xyz](https://riverml.xyz/)
   - Documentation
   - Examples
